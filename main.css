@@ -19,6 +19,15 @@
     display: block;
 }
 
+.gif {
+    width: 50%;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: space-around
+}
+
 ul {
     list-style: none;
 }
@@ -32,6 +41,12 @@ html {
 }
 
 h1 {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+}
+
+.stretch {
     font-size: 32px;
     width: 100%;
     text-align: center;
